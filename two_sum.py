@@ -12,7 +12,7 @@ def two_sum(list, target):
         elif current_sum < target:
             left += 1
         else:
-            right += 1
+            right -= 1
     
     return -1
 
